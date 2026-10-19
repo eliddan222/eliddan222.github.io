@@ -56,3 +56,27 @@ a:hover {
 .social-links img {
     height: 32px;
 }
+
+.resume-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.resume-links a {
+    display: inline-block;
+    padding: 10px 16px;
+    border: 1px solid #66b3ff;
+    border-radius: 6px;
+}
+
+.resume-links a:hover {
+    background: #1c2a38;
+    text-decoration: none;
+}
+
+.resume-links a:focus-visible {
+    outline: 2px solid #eee;
+    outline-offset: 4px;
+}
